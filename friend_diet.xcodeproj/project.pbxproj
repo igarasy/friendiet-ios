@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5515692BB3920C00086C06 /* TipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5515682BB3920C00086C06 /* TipCardView.swift */; };
+		2C55156B2BB392CD00086C06 /* TipCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55156A2BB392CD00086C06 /* TipCarouselView.swift */; };
+		2C55156D2BB3959C00086C06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55156C2BB3959C00086C06 /* HomeView.swift */; };
+		2C55156F2BB39D3D00086C06 /* DietSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55156E2BB39D3D00086C06 /* DietSectionView.swift */; };
+		2C9B8A002C58655000BA75E4 /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B89FF2C58654F00BA75E4 /* AddMealView.swift */; };
+		2C9B8A032C58668400BA75E4 /* MealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B8A022C58668400BA75E4 /* MealCard.swift */; };
+		2C9E6D252C5C693F00C4B5FD /* RecentMealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6D242C5C693F00C4B5FD /* RecentMealsListView.swift */; };
+		2CC6B70B2BCF411700DF8AAF /* FoodTeste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6B70A2BCF411700DF8AAF /* FoodTeste.swift */; };
 		2CCC21952BA4A80400E85A30 /* friend_dietApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC21942BA4A80400E85A30 /* friend_dietApp.swift */; };
 		2CCC21972BA4A80400E85A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC21962BA4A80400E85A30 /* ContentView.swift */; };
 		2CCC21992BA4A80700E85A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC21982BA4A80700E85A30 /* Assets.xcassets */; };
@@ -16,6 +24,10 @@
 		2CCC21A92BA4A80700E85A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC21A82BA4A80700E85A30 /* ContentView.swift */; };
 		2CCC21AB2BA4A80800E85A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC21AA2BA4A80800E85A30 /* Assets.xcassets */; };
 		2CCC21AE2BA4A80800E85A30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC21AD2BA4A80800E85A30 /* Preview Assets.xcassets */; };
+		2CD714B62BCDF84A00B06461 /* AddCustomMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD714B52BCDF84A00B06461 /* AddCustomMealView.swift */; };
+		2CD714BB2BCDFDC200B06461 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD714BA2BCDFDC200B06461 /* FoodItem.swift */; };
+		2CD714BD2BCDFDFE00B06461 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD714BC2BCDFDFE00B06461 /* Meal.swift */; };
+		2CE54C6A2BB24E3700A5C347 /* mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE54C692BB24E3700A5C347 /* mock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +55,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C5515682BB3920C00086C06 /* TipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCardView.swift; sourceTree = "<group>"; };
+		2C55156A2BB392CD00086C06 /* TipCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCarouselView.swift; sourceTree = "<group>"; };
+		2C55156C2BB3959C00086C06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2C55156E2BB39D3D00086C06 /* DietSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietSectionView.swift; sourceTree = "<group>"; };
+		2C9B89FF2C58654F00BA75E4 /* AddMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealView.swift; sourceTree = "<group>"; };
+		2C9B8A022C58668400BA75E4 /* MealCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCard.swift; sourceTree = "<group>"; };
+		2C9E6D242C5C693F00C4B5FD /* RecentMealsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMealsListView.swift; sourceTree = "<group>"; };
+		2CBD31272C585DE900188ED8 /* friend_diet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = friend_diet.entitlements; sourceTree = "<group>"; };
+		2CBD31282C585FE700188ED8 /* friend-diet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "friend-diet-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2CC6B70A2BCF411700DF8AAF /* FoodTeste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTeste.swift; sourceTree = "<group>"; };
 		2CCC21912BA4A80400E85A30 /* friend_diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friend_diet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCC21942BA4A80400E85A30 /* friend_dietApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend_dietApp.swift; sourceTree = "<group>"; };
 		2CCC21962BA4A80400E85A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +75,10 @@
 		2CCC21A82BA4A80700E85A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CCC21AA2BA4A80800E85A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CCC21AD2BA4A80800E85A30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CD714B52BCDF84A00B06461 /* AddCustomMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomMealView.swift; sourceTree = "<group>"; };
+		2CD714BA2BCDFDC200B06461 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		2CD714BC2BCDFDFE00B06461 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2CE54C692BB24E3700A5C347 /* mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9B89FD2C5864E500BA75E4 /* Add Meal View */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B8A012C58664B00BA75E4 /* Components */,
+				2C9B89FE2C58650000BA75E4 /* Add Saved Meal View */,
+				2CD714B92BCDFD8500B06461 /* Add Custom Meal View */,
+				2C9B89FF2C58654F00BA75E4 /* AddMealView.swift */,
+			);
+			path = "Add Meal View";
+			sourceTree = "<group>";
+		};
+		2C9B89FE2C58650000BA75E4 /* Add Saved Meal View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Add Saved Meal View";
+			sourceTree = "<group>";
+		};
+		2C9B8A012C58664B00BA75E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B8A022C58668400BA75E4 /* MealCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		2CCC21882BA4A80400E85A30 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +146,11 @@
 		2CCC21932BA4A80400E85A30 /* friend_diet */ = {
 			isa = PBXGroup;
 			children = (
+				2CBD31282C585FE700188ED8 /* friend-diet-Info.plist */,
+				2CBD31272C585DE900188ED8 /* friend_diet.entitlements */,
+				2CE54C682BB24E2600A5C347 /* Model */,
+				2CE54C672BB24DB600A5C347 /* View */,
 				2CCC21942BA4A80400E85A30 /* friend_dietApp.swift */,
-				2CCC21962BA4A80400E85A30 /* ContentView.swift */,
 				2CCC21982BA4A80700E85A30 /* Assets.xcassets */,
 				2CCC219A2BA4A80700E85A30 /* Preview Content */,
 			);
@@ -127,6 +182,55 @@
 				2CCC21AD2BA4A80800E85A30 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CD714B72BCDFD2800B06461 /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				2C5515682BB3920C00086C06 /* TipCardView.swift */,
+				2CD714B82BCDFD5400B06461 /* Components */,
+				2C55156C2BB3959C00086C06 /* HomeView.swift */,
+			);
+			path = "Home View";
+			sourceTree = "<group>";
+		};
+		2CD714B82BCDFD5400B06461 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2C55156E2BB39D3D00086C06 /* DietSectionView.swift */,
+				2C55156A2BB392CD00086C06 /* TipCarouselView.swift */,
+				2C9E6D242C5C693F00C4B5FD /* RecentMealsListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2CD714B92BCDFD8500B06461 /* Add Custom Meal View */ = {
+			isa = PBXGroup;
+			children = (
+				2CD714B52BCDF84A00B06461 /* AddCustomMealView.swift */,
+			);
+			path = "Add Custom Meal View";
+			sourceTree = "<group>";
+		};
+		2CE54C672BB24DB600A5C347 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B89FD2C5864E500BA75E4 /* Add Meal View */,
+				2CD714B72BCDFD2800B06461 /* Home View */,
+				2CCC21962BA4A80400E85A30 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CE54C682BB24E2600A5C347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CE54C692BB24E3700A5C347 /* mock.swift */,
+				2CD714BA2BCDFDC200B06461 /* FoodItem.swift */,
+				2CD714BC2BCDFDFE00B06461 /* Meal.swift */,
+				2CC6B70A2BCF411700DF8AAF /* FoodTeste.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +280,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					2CCC21902BA4A80400E85A30 = {
 						CreatedOnToolsVersion = 15.1;
@@ -231,8 +335,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9B8A032C58668400BA75E4 /* MealCard.swift in Sources */,
+				2CD714BD2BCDFDFE00B06461 /* Meal.swift in Sources */,
+				2C9B8A002C58655000BA75E4 /* AddMealView.swift in Sources */,
 				2CCC21972BA4A80400E85A30 /* ContentView.swift in Sources */,
+				2C55156B2BB392CD00086C06 /* TipCarouselView.swift in Sources */,
+				2CE54C6A2BB24E3700A5C347 /* mock.swift in Sources */,
+				2C55156F2BB39D3D00086C06 /* DietSectionView.swift in Sources */,
+				2CD714BB2BCDFDC200B06461 /* FoodItem.swift in Sources */,
+				2C9E6D252C5C693F00C4B5FD /* RecentMealsListView.swift in Sources */,
+				2C55156D2BB3959C00086C06 /* HomeView.swift in Sources */,
 				2CCC21952BA4A80400E85A30 /* friend_dietApp.swift in Sources */,
+				2C5515692BB3920C00086C06 /* TipCardView.swift in Sources */,
+				2CD714B62BCDF84A00B06461 /* AddCustomMealView.swift in Sources */,
+				2CC6B70B2BCF411700DF8AAF /* FoodTeste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +406,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -351,6 +468,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -437,12 +555,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = friend_diet/friend_diet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"friend_diet/Preview Content\"";
 				DEVELOPMENT_TEAM = FU2KA3SWP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "friend-diet-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = friend_diet;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,12 +590,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = friend_diet/friend_diet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"friend_diet/Preview Content\"";
 				DEVELOPMENT_TEAM = FU2KA3SWP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "friend-diet-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = friend_diet;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A0D874CB-D954-4E4E-8797-79E3D02A28A5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "friend_diet/Model/FoodItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "FoodManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E - 52ec903f037e1385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "friend_diet.FoodManager.deinit"
+                  moduleName = "friend_diet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/caju/Documents/pessoal/ios/friend_diet/friend_diet/Model/FoodItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E - 9d347e5f98f01af8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "friend_diet.FoodManager.__deallocating_deinit"
+                  moduleName = "friend_diet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/caju/Documents/pessoal/ios/friend_diet/friend_diet/Model/FoodItem.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
