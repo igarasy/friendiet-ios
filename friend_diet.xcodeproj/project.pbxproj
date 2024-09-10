@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4F5A522C86213200F030CA /* MealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F5A512C86213200F030CA /* MealService.swift */; };
+		2C4F5A542C86217300F030CA /* DietService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F5A532C86217300F030CA /* DietService.swift */; };
+		2C4F5A562C86449300F030CA /* MealConsumedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F5A552C86449300F030CA /* MealConsumedService.swift */; };
+		2C4F5A592C8647DF00F030CA /* RecentMealsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F5A582C8647DF00F030CA /* RecentMealsViewModel.swift */; };
 		2C5515692BB3920C00086C06 /* TipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5515682BB3920C00086C06 /* TipCardView.swift */; };
 		2C55156B2BB392CD00086C06 /* TipCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55156A2BB392CD00086C06 /* TipCarouselView.swift */; };
 		2C55156D2BB3959C00086C06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55156C2BB3959C00086C06 /* HomeView.swift */; };
@@ -55,6 +59,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C4F5A512C86213200F030CA /* MealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealService.swift; sourceTree = "<group>"; };
+		2C4F5A532C86217300F030CA /* DietService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietService.swift; sourceTree = "<group>"; };
+		2C4F5A552C86449300F030CA /* MealConsumedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealConsumedService.swift; sourceTree = "<group>"; };
+		2C4F5A582C8647DF00F030CA /* RecentMealsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMealsViewModel.swift; sourceTree = "<group>"; };
 		2C5515682BB3920C00086C06 /* TipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCardView.swift; sourceTree = "<group>"; };
 		2C55156A2BB392CD00086C06 /* TipCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCarouselView.swift; sourceTree = "<group>"; };
 		2C55156C2BB3959C00086C06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -99,6 +107,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4F5A502C86211A00F030CA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2C4F5A512C86213200F030CA /* MealService.swift */,
+				2C4F5A532C86217300F030CA /* DietService.swift */,
+				2C4F5A552C86449300F030CA /* MealConsumedService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2C4F5A572C8647C700F030CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C4F5A582C8647DF00F030CA /* RecentMealsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2C9B89FD2C5864E500BA75E4 /* Add Meal View */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +172,8 @@
 		2CCC21932BA4A80400E85A30 /* friend_diet */ = {
 			isa = PBXGroup;
 			children = (
+				2C4F5A572C8647C700F030CA /* ViewModel */,
+				2C4F5A502C86211A00F030CA /* Service */,
 				2CBD31282C585FE700188ED8 /* friend-diet-Info.plist */,
 				2CBD31272C585DE900188ED8 /* friend_diet.entitlements */,
 				2CE54C682BB24E2600A5C347 /* Model */,
@@ -338,17 +366,21 @@
 				2C9B8A032C58668400BA75E4 /* MealCard.swift in Sources */,
 				2CD714BD2BCDFDFE00B06461 /* Meal.swift in Sources */,
 				2C9B8A002C58655000BA75E4 /* AddMealView.swift in Sources */,
+				2C4F5A542C86217300F030CA /* DietService.swift in Sources */,
 				2CCC21972BA4A80400E85A30 /* ContentView.swift in Sources */,
 				2C55156B2BB392CD00086C06 /* TipCarouselView.swift in Sources */,
 				2CE54C6A2BB24E3700A5C347 /* mock.swift in Sources */,
 				2C55156F2BB39D3D00086C06 /* DietSectionView.swift in Sources */,
 				2CD714BB2BCDFDC200B06461 /* FoodItem.swift in Sources */,
+				2C4F5A522C86213200F030CA /* MealService.swift in Sources */,
 				2C9E6D252C5C693F00C4B5FD /* RecentMealsListView.swift in Sources */,
 				2C55156D2BB3959C00086C06 /* HomeView.swift in Sources */,
 				2CCC21952BA4A80400E85A30 /* friend_dietApp.swift in Sources */,
 				2C5515692BB3920C00086C06 /* TipCardView.swift in Sources */,
 				2CD714B62BCDF84A00B06461 /* AddCustomMealView.swift in Sources */,
 				2CC6B70B2BCF411700DF8AAF /* FoodTeste.swift in Sources */,
+				2C4F5A592C8647DF00F030CA /* RecentMealsViewModel.swift in Sources */,
+				2C4F5A562C86449300F030CA /* MealConsumedService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

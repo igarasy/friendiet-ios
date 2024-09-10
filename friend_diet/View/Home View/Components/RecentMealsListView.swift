@@ -1,18 +1,7 @@
 import SwiftUI
 
-struct MealTeste: Identifiable {
-    let id = UUID()
-    let name: String
-    let calories: Int
-    let date: Date
-}
-
 struct RecentMealsListView: View {
-    let meals: [MealTeste] = [
-        MealTeste(name: "Café da Manhã", calories: 300, date: Date()),
-        MealTeste(name: "Almoço", calories: 600, date: Date()),
-        MealTeste(name: "Jantar", calories: 500, date: Date())
-    ]
+    @ObservedObject var viewModel: RecentMealsViewModel
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -21,19 +10,33 @@ struct RecentMealsListView: View {
                 .padding(.leading)
                 .padding(.top)
             
-            VStack {
-                ForEach(meals) { meal in
-                    MealRow(meal: meal)
-                    Divider()
+            if viewModel.isLoading {
+                ProgressView("Carregando refeições...")
+                    .padding()
+            } else if let errorMessage = viewModel.errorMessage {
+                Text("Erro: \(errorMessage)")
+                    .foregroundColor(.red)
+                    .padding()
+            } else {
+                VStack {
+                    ForEach(viewModel.mealsConsumed) { meal in
+                        MealRow(meal: meal)
+                        Divider()
+                    }
                 }
+                .padding(.horizontal)
             }
-            .padding(.horizontal)
+        }
+        .onAppear {
+            viewModel.fetchMealsConsumed(for: 1){
+                result in
+            }
         }
     }
 }
 
 struct MealRow: View {
-    let meal: MealTeste
+    let meal: MealConsumed
     
     var body: some View {
         HStack {
@@ -45,17 +48,18 @@ struct MealRow: View {
                 .clipShape(RoundedRectangle(cornerRadius: 8))
             
             VStack(alignment: .leading) {
-                Text(meal.name)
+                Text(meal.comment ?? "")
                     .font(.body)
                     .fontWeight(.bold)
-                Text("\(meal.date, formatter: dateFormatter)")
+                
+                Text("\(isoDateFormatter.string(from: meal.createdAt))")
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
             
             Spacer()
             
-            Text("\(meal.calories) KCal")
+            Text("\(meal.totalCalories) KCal")
                 .font(.body)
                 .fontWeight(.bold)
         }
@@ -63,15 +67,15 @@ struct MealRow: View {
     }
 }
 
-let dateFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .short
+let isoDateFormatter: ISO8601DateFormatter = {
+    let formatter = ISO8601DateFormatter()
+    formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
     return formatter
 }()
 
+
 struct MealsListView_Previews: PreviewProvider {
     static var previews: some View {
-        RecentMealsListView()
+        RecentMealsListView(viewModel: RecentMealsViewModel())
     }
 }

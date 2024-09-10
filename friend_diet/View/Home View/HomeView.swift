@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject private var recentMealsViewModel = RecentMealsViewModel()
     var body: some View {
         ScrollView {
             VStack(spacing: 10) {
@@ -18,7 +19,7 @@ struct HomeView: View {
                 Divider()
                     .frame(height: 1)
                     .background(Color.gray)
-                RecentMealsListView()
+                RecentMealsListView(viewModel: recentMealsViewModel)
                 Spacer()
             }
             .padding()

@@ -20,34 +20,50 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E - 52ec903f037e1385"
+                  uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E - 7b7f9ab432c9fd5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "friend_diet.FoodManager.deinit"
                   moduleName = "friend_diet"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/caju/Documents/pessoal/ios/friend_diet/friend_diet/Model/FoodItem.swift"
+                  urlString = "file:///Users/caju/Documents/pessoal/friend_diet_ios/friend_diet/Model/FoodItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0">
                </Location>
                <Location
-                  uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E - 9d347e5f98f01af8"
+                  uuid = "8206B34D-9A9C-40ED-AA19-77F8A64A879E - c86f17cbd8a296a8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "friend_diet.FoodManager.__deallocating_deinit"
                   moduleName = "friend_diet"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/caju/Documents/pessoal/ios/friend_diet/friend_diet/Model/FoodItem.swift"
+                  urlString = "file:///Users/caju/Documents/pessoal/friend_diet_ios/friend_diet/Model/FoodItem.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CE4DE53-2C5F-44E7-A4B0-ADC6DE4E2BB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "friend_diet/View/Home View/Components/RecentMealsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
